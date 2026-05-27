@@ -1,0 +1,28 @@
+# Don't commit the SQL Server backup file — large + not ours to redistribute
+*.bak
+*.bacpac
+*.mdf
+*.ldf
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Power BI temp files
+*.pbix.bak
+~$*.pbix
+
+# Secrets
+.env
+*.local
+credentials*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
