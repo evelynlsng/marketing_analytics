@@ -1,4 +1,7 @@
 -- SQL Query to categorize products based on their price
+SELECT 
+*
+FROM dbo.products
 
 SELECT 
     ProductID,  -- Selects the unique identifier for each product
